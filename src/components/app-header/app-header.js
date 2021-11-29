@@ -11,12 +11,14 @@ h1 {
     font-size: 26px;
     color: ${props => props.colored ? 'red' : 'black'};
     :hover {
-        color: blue;
+        cursor: pointer;
+        text-decoration: none;
     }
 }
 h2 {
     font-size: 1.2rem;
     color: grey;
+    cursor: default;
 }
 `
 
