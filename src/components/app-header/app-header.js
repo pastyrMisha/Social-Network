@@ -11,6 +11,7 @@ h1 {
     font-size: 26px;
     color: ${props => props.colored ? 'red' : 'black'};
     :hover {
+        color: blue;
         cursor: pointer;
         text-decoration: none;
     }
